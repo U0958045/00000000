@@ -1,0 +1,71 @@
+## Welcome to GitHub Pages
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style type="text/css">
+p{
+color:red;
+margin:5px
+;
+cursor:pointer
+;
+}
+p:hover{
+background: yellow
+;
+}
+.Chinaairline{
+position:fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 10;
+background: rgba(0,0,0,0.5);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+                                      .fause{
+                                                         position:fixed;
+top:0;
+right: 0;
+width: 10%;
+height:10%;
+                                                         z-index: 10;
+display: flex;
+justify-content: right;
+align-items: right;
+
+</style>
+</head>
+<body>
+<p>熊熊遇見你</p>
+<h1>活潑的熊</h1>
+<div class="cat">
+<img src="https://i.imgur.com/QuW7Jwl.png">
+</div> 
+
+                   <div class="fause">
+                  <img src="https://img.tukuppt.com/png_preview/00/05/87/Vw6Lm2JX7Z.jpg!/fw/780" width="100" height="100" >
+                  </div>
+
+<script type="text/javascript"> 
+$('p').click(function(){
+$('.cat').slideToggle();
+                                                         $('.fause').slideToggle();
+                                                     
+});
+$('.fause').click(function(){
+$('.fause').slideToggle();
+                                                         $('.cat').slideToggle();
+});
+</script>
+</body>
+</html>
